@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".ejercicio3" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/titleeje3"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/layanio"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+            <EditText
+                android:id="@+id/eje3anio"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/inputanio"
+                android:inputType="number"
+                android:textColor="#FDFDFD"
+                android:translationX="160dp" />
+
+            <Button
+                android:id="@+id/eje3btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/btnanio"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="150dp"
+                app:backgroundTint="#3F51B5" />
+
+            <TextView
+                android:id="@+id/eje3res"
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/eje3result"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

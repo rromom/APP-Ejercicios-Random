@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">LABORATORIO 1</string>
+    <string name="maintitle">MENU</string>
+    <string name="eje1">EJERCICIO 1</string>
+    <string name="eje2">EJERCICIO 2</string>
+    <string name="eje3">EJERCICIO 3</string>
+    <string name="eje4">EJERCICIO 4</string>
+    <string name="eje5">EJERCICIO 5</string>
+    <!-- TODO: Fragments -->
+    <string name="freje1">ejercicio1</string>
+    <string name="freje2">ejercicio2</string>
+    <!-- TODO: fragment ejercicio 1 -->
+    <string name="layeje1">EJERCICIO 1</string>
+    <string name="layingreso">Ingresa tu nota: </string>
+    <string name="inputeje1">Tu nota va aquí</string>
+    <string name="btnsend">ENVIAR</string>
+    <string name="txtresultados">RESULTADOS</string>
+
+    <!-- TODO: fragment ejercicio 2 -->
+    <string name="titleej2">EJERCICIO 2</string>
+    <string name="layA">Ingrese el valor de A:</string>
+    <string name="layB">Ingrese el valor de B:</string>
+    <string name="layC">Ingrese el valor de C:</string>
+    <string name="inputA">Valor de A</string>
+    <string name="inputB">Valor de B</string>
+    <string name="inputC">Valor de C</string>
+    <string name="btnecua">ENVIAR</string>
+    <string name="txtreseje2">RESULTADOS</string>
+    <!-- TODO: fragment ejercicio 3 -->
+    <string name="titleeje3">EJERCICIO 3</string>
+    <string name="layanio">Ingrese año:</string>
+    <string name="inputanio">Año</string>
+    <string name="btnanio">ENVIAR</string>
+    <string name="eje3result">Resultados</string>
+    <!-- TODO: fragment ejercicio 4 -->
+    <string name="eje4tit">EJERCICIO 4</string>
+    <string name="eje4lay">Ingresa la Fecha</string>
+    <string name="eje4dia">Dia</string>
+    <string name="eje4mes">Mes</string>
+    <string name="eje4anio">Año</string>
+    <string name="eje4btn">ENVIAR</string>
+    <string name="eje4res">RESULTADOS</string>
+    <!-- TODO: fragment ejercicio 5 -->
+    <string name="eje5tit">EJERCICIO 5</string>
+    <string name="eje5la1">Ingrese primer numero</string>
+    <string name="eje5in1">Numero 1</string>
+    <string name="eje5la2">Ingrese segundo numero</string>
+    <string name="eje5in2">Numero 2</string>
+    <string name="eje5la3">Ingrese tercer numero</string>
+    <string name="eje5in3">Numero 3</string>
+    <string name="eje5btn">ENVIAR</string>
+    <string name="eje5res">RESULTADOS</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".ejercicio1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/titleeje1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/layeje1"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/layingreso"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+            <EditText
+                android:id="@+id/eje1nota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/inputeje1"
+                android:importantForAutofill="no"
+                android:inputType="numberSigned|number|textPersonName|numberDecimal"
+                android:textSize="18sp"
+                android:translationX="100dp" />
+
+            <Button
+                android:id="@+id/eje1btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/btnsend"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="150dp"
+                app:backgroundTint="#3F51B5"
+                app:iconTint="#2196F3" />
+
+            <TextView
+                android:id="@+id/eje1resul"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/txtresultados"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

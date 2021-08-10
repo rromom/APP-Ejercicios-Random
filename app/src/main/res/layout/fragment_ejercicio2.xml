@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".ejercicio2" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/titleej2"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/layA"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+            <EditText
+                android:id="@+id/eje2A"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/inputA"
+                android:inputType="numberSigned|number|numberDecimal"
+                android:textColor="#FFFFFF"
+                android:translationX="150dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/layB"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+            <EditText
+                android:id="@+id/eje2B"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/inputB"
+                android:inputType="numberSigned|number|numberDecimal"
+                android:textColor="#FFFFFF"
+                android:translationX="150dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/layC"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+            <EditText
+                android:id="@+id/eje2C"
+                android:layout_width="101dp"
+                android:layout_height="55dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/inputC"
+                android:inputType="numberSigned|number|numberDecimal"
+                android:textColor="#FFFFFF"
+                android:translationX="150dp" />
+
+            <Button
+                android:id="@+id/eje2btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/btnecua"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="140dp"
+                app:backgroundTint="#3F51B5" />
+
+            <TextView
+                android:id="@+id/eje2res"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/txtreseje2"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:translationX="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
